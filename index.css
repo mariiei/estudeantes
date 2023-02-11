@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+header {
+	width: 100%;
+	height: 5%;
+	background: rgb(243, 243, 243);
+    border:1px solid rgb(137, 112, 133);
+    float: left;
+}
+.logo {
+    padding:5px 10px; 
+    float:left;
+    padding-left: 50px;
+    color: rgb(81, 62, 82);
+    font-weight: bold;
+    font-family: Tahoma, sans-serif;
+}
+header nav ul li{
+    position:relative;
+    list-style:none;
+    margin-right: 10px;
+}
+.botoesmenu {
+    padding-right: 100px;
+    margin-top: 10px;
+}
+header li a{
+    color:#f2f2f2; 
+    background-color: rgb(82, 77, 82);
+    text-decoration:none; 
+    padding:5px 10px; 
+    float:right;
+    border-right: 4px solid white;
+}
+
+header li a:hover{
+    background:#333;
+    color:#fff;
+    box-shadow: 0 3px 10px 0 #CCC;
+    -moz-box-shadow:0 3px 10px 0 #CCC;
+    -webkit-box-shadow:0 3px 10px 0 #ccc;
+    text-shadow:0px 0px 5px #fff;
+}
+
+main {
+	width: 100%;
+	height: 97%;
+	background: rgb(124, 55, 113);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main img {
+    float: left;
+    width: 60%;
+    height: 94.6%;
+    opacity: .6;
+}
+.caixa {
+    padding: 20px;
+    padding-top: 40%;
+}
+.inicio {
+    float: right;
+    background-color: rgb(219, 219, 219);
+    width: 40%;
+    height: 94.6%;
+}
+span {
+    color: #9c51b6;
+}
+.inicio .p1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.inicio .p2 {
+    padding-top: 30px;
+    font-size: 14px;
+    text-align: center;
+}
+.p2 span {
+    float: right;
+    padding-right: 8%;
+}
+.inicio h1 {
+    text-align: center;
+}
+.inicio button {
+    background-color: #9c51b6;
+    border-radius: 20px;
+    padding: 12px 70px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #957f9c;
+    font-size: 16px;
+    margin: auto;
+    display: block;
+}
+.inicio button:hover {
+    background-color: #3c1f46;
+    cursor: pointer;
+}
+footer {
+	width: 100%;
+	height: 3%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(37, 37, 37);
+}
+footer p{
+    text-align: center;
+    z-index: 1;
+}
